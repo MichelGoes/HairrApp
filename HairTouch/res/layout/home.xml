@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home2"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:layout_width="138dp"
+        android:layout_height="134dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logo"
+        android:textColor="#FFFAF0"
+        android:textSize="22sp" />
+    
+    <TextView
+        android:id="@+id/linkLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Login"
+        android:textColor="#FFFAF0"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/mapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Localize -me"
+        android:textColor="#FFFAF0"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/listarSaloes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        android:text="Listar Salões"
+        android:textColor="#FFFAF0"
+        android:textSize="22sp" />
+
+</LinearLayout>
